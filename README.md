@@ -1,7 +1,8 @@
-<blink>
+&lt;blink>
 =======
 
-Enables the `<blink>` tag in modern browsers.
+### Enables the `<blink>` tag in modern browsers.
+
 
 Well, W3C may recommend against blinking text due to [accessibility guidelines](http://www.w3.org/WAI/UA/TS/html401/cp0303/0303-CSS-BLINK.html), and apparently all modern browsers have removed the `text-decoration: blink` CSS property and `<blink>` tag support.
 
