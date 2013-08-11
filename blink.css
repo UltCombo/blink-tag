@@ -1,0 +1,21 @@
+@-webkit-keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+blink {
+  -webkit-animation: blink 2s steps(1, start) infinite;
+  animation: blink 2s steps(1, start) infinite;
+}
